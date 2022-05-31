@@ -1,0 +1,46 @@
+
+main{
+    position:absolute;
+    top: 5%;
+}
+
+.tag {
+    position: relative;
+    display: inline-block;
+    border-radius: 6px;
+    clip-path: polygon(20px 0px, 100% 0px, 100% 100%, 0% 100%, 0% 20px);
+    background: var(--color-front);
+    padding: 16px 40px;
+    margin: 0 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--color-text);
+    transition: clip-path 500ms;
+  }
+
+  .ul {
+    padding: 0;
+    width: 100%;
+  }
+  
+
+  
+  .da {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+  }
+
+  .da:link, a:visited, a:focus {
+    background: rgb(154, 217, 233);
+  }
+  
+  .da:hover {
+    background: rgb(123, 194, 241);
+  }
+  

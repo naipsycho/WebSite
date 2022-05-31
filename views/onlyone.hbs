@@ -1,0 +1,15 @@
+<section class="forms-section">
+    <label>Изменение</label>
+        <form action="/about/reduct" method="post">
+            <input class="feedback-input" type="text" name="title" value="{{one.title}}">
+            <textarea name="info" placeholder="Description" class="feedback-input">{{one.info}}</textarea>
+            <input class="feedback-input" type="hidden" name="id" value="{{one.id}}">
+            <input type="submit" value="Изменить"/>
+        </form>
+    <label>Удаление</label>
+        <form action="/about/delete" method="post">
+        {{one.title}}
+            <input class="feedback-input" type="hidden" name="id" value="{{one.id}}">
+            <input type="submit" value="Удалить"/>
+        </form>
+</section>

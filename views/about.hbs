@@ -1,0 +1,19 @@
+<main>
+{{#if notes.length}}
+    {{#each notes}}
+    <div class="tag">
+      <div class="col-3">
+        <div class="card shadow" style="width: 18rem;">
+      <img class="card-img-top" src="{{image}}" alt="123">
+      <div class="card-body">
+      <h1 class="card-title font-poppins" >Name: {{title}}</h1>
+      <p class="text-secondary font-size-09">Description: {{info}}</p>
+      <a class="btn btn-info font-size-09 text-light" href="/about/{{id}}/reduct?allow=true" target="blank">Reduct</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+{{/if}}
+</main>

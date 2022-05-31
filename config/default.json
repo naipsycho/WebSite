@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "secret": "SECRET_KEY_RANDOM",
+    "url": "mongodb+srv://Mark:12345@cluster0.ssxca.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "url1": "mongodb+srv://Mark:123@cluster0.woyox.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}

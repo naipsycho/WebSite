@@ -1,0 +1,25 @@
+<ul class="nav justify-content-end" style="font-size: 30px;">
+  {{#if isAuth}}
+  <li class="nav-item">
+    <a class="nav-link" href="/">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/add">New post</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="/about">Posts</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <img src="http://localhost:5000/{{One.image}}" alt="" style="  width: 60px;  height: 60px;  border-radius: 50%;">
+    </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="/account"><i class="fa-solid fa-user"></i> Profile</a></li>
+        <li><a class="dropdown-item" href="#">Another </a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="/logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
+      </ul>
+  </li>
+    {{else}}
+  {{/if}}
+</ul>
